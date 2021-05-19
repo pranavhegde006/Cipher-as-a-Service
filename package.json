@@ -1,0 +1,15 @@
+{
+  "name": "caas",
+  "version": "1.0.0",
+  "description": "A cipher as a service web app/API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Pranav R. Hegde",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
