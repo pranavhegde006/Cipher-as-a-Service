@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Caesar cipher API</title>
+        <title>CaaS - Pranav Hegde</title>
+        <link rel="icon" href="./../assets/favicon-16x16.png" type="image/gif" sizes="16x16"> 
+        <link rel="stylesheet" href="./../styles/caesar.css">
+        <script src="./../util/index.js"></script>
     </head>
     <body>
-        <h1>Welcome to Caesar cipher API by Pranav Hegde.</h1>
+        <h1>Welcome to the web version of the Caesar cipher API!</h1>
+
+        <p class="topright"> <img class='toggle' width="50" height="50" src="./../assets/toggle1.jpg" onClick="myFunction()"> </p>
 
         <form method="POST" action="/api/caesar/form">
             <label for="message"> Enter your plain text/message: </label>
@@ -12,8 +17,8 @@
             <label for="key"> Enter your key: </label>
             <input type="number" name="key" default=3 placeholder=3></br>
             <small>*Note: If you don't enter a key, the default value of key will be taken as 3</small><br/>
-            <button type="submit">Encrypt!</button>
+            <button type="submit" class="button">Encrypt!🔐</button>
         </form>
-
+        By <a href="https://github.com/pranavhegde006"> Pranav Hegde</a>.</br>
     </body>
 </html>

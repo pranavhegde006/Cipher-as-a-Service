@@ -1,0 +1,38 @@
+doctype html
+head
+  title CaaS - Pranav Hegde
+  link(rel='stylesheet' href='./../styles/index.css')
+  link(rel='icon' href='./../assets/favicon-16x16.png' type='image/gif' sizes='16x16')
+  script(src='./../util/index.js')
+h1  Welcome to CaaS - cipher as a service 🔐
+p.topright
+  img.toggle(width='50' height='50' src='./../assets/toggle1.jpg' onclick='myFunction()')
+br
+b How to?
+p
+  | API link: 
+  b
+    u https://cipher-as-a-service.herokuapp.com/api/caesar/{key}/{message}
+  br
+  |             Enter the key value and your message to be encrypted in the format depicted above.
+  br
+  |             You&apos;ll receive the encrypted message in JSON format!
+  br
+  |             Wish you a good service!
+h3.text-center
+  | Take me to the 
+  a(href='/api/caesar') web version
+  |  of Caesar cipher!
+br
+|   The web version of my CaaS has benefited people over 
+b  #[count= count]  
+|    times. What are you waiting for?
+br
+br
+|         A project in public interest by
+a(href='https://github.com/pranavhegde006')  Pranav Hegde
+| .
+br
+|   Contribute to the project
+|
+a(href='https://github.com/pranavhegde006/cipher-as-a-service') here! 
