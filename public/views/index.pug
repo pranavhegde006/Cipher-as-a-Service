@@ -14,11 +14,15 @@ p
   b
     u https://cipher-as-a-service.herokuapp.com/api/caesar/{key}/{message}
   br
-  |             Enter the key value and your message to be encrypted in the format depicted above.
   br
-  |             You&apos;ll receive the encrypted message in JSON format!
+  |             Demo:
+  b 
+    a(href = 'https://cipher-as-a-service.herokuapp.com/api/caesar/3/demotext') https://cipher-as-a-service.herokuapp.com/api/caesar/3/demotext
+  |             would give you the caesar encrypted value of 
+  b             demotext
+  |             , key being 3.
   br
-  |             Wish you a good service!
+  |             Thanks for using CaaS!
 h3.text-center
   | Take me to the 
   a(href='/api/caesar') web version
@@ -30,7 +34,8 @@ b  #[count= count]
 br
 br
 |         A project in public interest by
-a(href='https://github.com/pranavhegde006')  Pranav Hegde
+|
+a(href='https://github.com/pranavhegde006') Pranav Hegde
 | .
 br
 |   Contribute to the project
