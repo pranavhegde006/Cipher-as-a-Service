@@ -13,4 +13,4 @@ There is even a web version of my CaaS which is accessible at "https://cipher-as
 Feel free to contribute to this project by adding in more ciphers and functionalities.
 
 
-> Inspired by [GodBaral's](https://github.com/aditeyabaral) [AaaS](https://github.com/aditeyabaral/arithmetic-as-a-service) xD. Hope you like this too!
+> Inspired by [Aditeya Baral's](https://github.com/aditeyabaral) [AaaS](https://github.com/aditeyabaral/arithmetic-as-a-service) xD. Hope you like this too!
